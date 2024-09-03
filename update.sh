@@ -18,7 +18,7 @@ then
     CURL=/tmp/curl
 fi
 
-$CURL -s https://api.github.com/repos/ballaswag/guppyscreen/releases -o /tmp/guppy-releases.json
+$CURL -s https://api.github.com/repos/super-matter/guppyscreen/releases -o /tmp/guppy-releases.json
 latest_version=`jq -r '.[0].tag_name' /tmp/guppy-releases.json`
 
 if [ "$(printf '%s\n' "$CURRENT_VERSION" "$latest_version" | sort -V | head -n1)" = "$latest_version" ]; then 

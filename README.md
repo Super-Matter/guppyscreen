@@ -2,20 +2,20 @@
 
 Guppy Screen is a touch UI for Klipper using APIs exposed by Moonraker. It builds on LVGL as a standalone executable, has no dependency on any display servers such as X/Wayland.
 <p align="center">
-    <a aria-label="Downloads" href="https://github.com/ballaswag/guppyscreen/releases">
-      <img src="https://img.shields.io/github/downloads/ballaswag/guppyscreen/total?style=flat-square">
+    <a aria-label="Downloads" href="https://github.com/super-matter/guppyscreen/releases">
+      <img src="https://img.shields.io/github/downloads/super-matter/guppyscreen/total?style=flat-square">
   </a>
-    <a aria-label="Stars" href="https://github.com/ballaswag/guppyscreen/stargazers">
-      <img src="https://img.shields.io/github/stars/ballaswag/guppyscreen?style=flat-square">
+    <a aria-label="Stars" href="https://github.com/super-matter/guppyscreen/stargazers">
+      <img src="https://img.shields.io/github/stars/super-matter/guppyscreen?style=flat-square">
   </a>
-    <a aria-label="Forks" href="https://github.com/ballaswag/guppyscreen/network/members">
-      <img src="https://img.shields.io/github/forks/ballaswag/guppyscreen?style=flat-square">
+    <a aria-label="Forks" href="https://github.com/super-matter/guppyscreen/network/members">
+      <img src="https://img.shields.io/github/forks/super-matter/guppyscreen?style=flat-square">
   </a>
-    <a aria-label="License" href="https://github.com/ballaswag/guppyscreen/blob/develop/LICENSE">
-      <img src="https://img.shields.io/github/license/ballaswag/guppyscreen?style=flat-square">
+    <a aria-label="License" href="https://github.com/super-matter/guppyscreen/blob/develop/LICENSE">
+      <img src="https://img.shields.io/github/license/super-matter/guppyscreen?style=flat-square">
   </a>
-    <a aria-label="Last commit" href="https://github.com/ballswag/guppyscreen/commits/">
-      <img src="https://img.shields.io/github/last-commit/ballaswag/guppyscreen?style=flat-square">
+    <a aria-label="Last commit" href="https://github.com/super-matter/guppyscreen/commits/">
+      <img src="https://img.shields.io/github/last-commit/super-matter/guppyscreen?style=flat-square">
   </a>
 </p>
 
@@ -24,40 +24,40 @@ Run the following interactive script via SSH on your K1/Max/CR-10 SE/Ender 3 V3 
 
 #### Material Design Theme
 ```
-sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer.sh)"
+sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer.sh)"
 ```
 
 #### Z-Bolt Theme (Only for the K1/Max)
 ```
-sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer.sh)" -s zbolt
+sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer.sh)" -s zbolt
 ```
 
 ### Install on a PI (Debian/Raspbian)
 Tested on a BTT Pad 7. Please install with care and make sure you're okay with resetting your setup if things break.
 ```
-wget -O - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer-deb.sh | bash
+wget -O - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer-deb.sh | bash
 ```
 
 ### Nightly Builds
 #### Material (Nightly)
 ```
-sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer.sh)" -s nightly
+sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer.sh)" -s nightly
 ```
 
 #### Z-Bolt (Nightly)
 ```
-sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer.sh)" -s zbolt nightly
+sh -c "$(wget --no-check-certificate -qO - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer.sh)" -s zbolt nightly
 ```
 
 #### Raspbian Variant (Nightly)
 ```
-wget -O - https://raw.githubusercontent.com/ballaswag/guppyscreen/main/installer-deb.sh | bash -s nightly
+wget -O - https://raw.githubusercontent.com/super-matter/guppyscreen/main/installer-deb.sh | bash -s nightly
 ```
 
 ### Android
-Guppy Screen works on Android! Download and try with the latest [APK](https://github.com/ballaswag/guppyscreen/releases/latest/download/app-release.apk).  
+Guppy Screen works on Android! Download and try with the latest [APK](https://github.com/super-matter/guppyscreen/releases/latest/download/app-release.apk).  
   
-<img src="https://github.com/ballaswag/guppyscreen/assets/145094472/d0437cd6-9b82-470f-8889-c4a5b74bfa6e" alt="guppyscreen on android" width="600" />
+<img src="https://github.com/super-matter/guppyscreen/assets/145094472/d0437cd6-9b82-470f-8889-c4a5b74bfa6e" alt="guppyscreen on android" width="600" />
 
 ## Uninstall
 ssh into your K1/Max and run the follwow command:
